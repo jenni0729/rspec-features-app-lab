@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  
+
+
   root 'weather#index'
 
+  get 'weather/search'
 
 end 
   # The priority is based upon order of creation: first created -> highest priority.
